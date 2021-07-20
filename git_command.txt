@@ -15,4 +15,4 @@ git reset file: chuyển từ xanh lá -> đỏ
 
 git checkout -b name_branch:	
 	checkout: chuyển sang nhánh đó làm việc
-	-b: tạo branch nếu branch chưa tồn tại
+	-b: tạo branch mới
