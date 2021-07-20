@@ -1,0 +1,1 @@
+git diff			|	Chỉ xem nội dung của các file có modified
