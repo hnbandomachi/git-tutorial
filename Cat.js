@@ -3,7 +3,7 @@ function Cat()
 	this.stomach = []
 }
 
-// huy 2
+// huy 3
 Cat.prototype.eat() = function()
 {
 	thi.stomach.push(mouse);

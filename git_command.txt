@@ -1,1 +1,18 @@
-git diff			|	Chỉ xem nội dung của các file có modified
+git show ID_commit:	Xem thay đổi của commit
+git diff:			Chỉ xem nội dung của các file có modified\
+
+working directory:	Màu đỏ
+	|
+staging area:		Màu xanh lá
+	|
+git repository:		Màu trắng
+
+
+git checkout --file: bỏ modified của file, thay đổi nội dung, nhưng không đưa xuống untrack file
+git restore --staged file: chuyển đỏ, xanh lá -> đỏ(hoặc untrack unless commit) không thay đổi nội dung (not recommend)
+git reset file: chuyển từ xanh lá -> đỏ
+
+
+git checkout -b name_branch:	
+	checkout: chuyển sang nhánh đó làm việc
+	-b: tạo branch nếu branch chưa tồn tại
